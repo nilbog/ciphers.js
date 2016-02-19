@@ -38,5 +38,6 @@ Currently works with all alphanumeric characters. _(working to include punctuati
 **_using the optional shift argument:_**
 
 `de_caesar64("bWpxcXQgYnR3cWk=", 5)` returns `"hello world"`
+
 `de_caesar64("TWpRcXQgYnRXcUkgNjc4", 5)` returns `"HeLlo woRlD 123"`
 
