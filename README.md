@@ -11,4 +11,4 @@ de_caesar64 | base64 decoding + caesar decipher | string, integer (shift)
 
 
 ##Usage
-
+#### *_Caesar64 & De\_Caesar64_*
