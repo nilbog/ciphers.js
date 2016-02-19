@@ -3,11 +3,11 @@
 ### Description
 **_Ciphers.js_** is a series of jQuery-based functions that perform some different ciphers
 
-#### Default Validations
-Input Type | Checks For | Purpose
+#### What's Included
+Name | Function | Arguments
 --- | --- | --- |
-caesar64 | Proper email format `(/.+@.\..+/gi)` | test
-de_caesar64 | Does not contain `<` or `>` characters | test
+caesar64 | caesar cipher + base64 encoding | string, integer (shift)
+de_caesar64 | base64 decoding + caesar decipher | string, integer (shift)
 
 
 ##Usage
