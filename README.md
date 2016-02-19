@@ -26,8 +26,7 @@ Currently works with all alphanumeric characters. _(working to include punctuati
 
 `caesar64('HeLlo woRlD 123', 5);` returns `"TWpRcXQgYnRXcUkgNjc4"`
 
-
-
+---
 #### _De\_Caesar64_
 De\_Caesar64( ) takes a string and an optional integer (shift). If no integer is present, it defaults to a shift of 3.
 
