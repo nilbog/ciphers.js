@@ -27,7 +27,7 @@ var caesar64 = function(string, shift){
 			}
 			encoded_words.push(encoded_letters.join(''));
 		}
-	return btoa(encoded_words.join(' '));
+	return btoa(encoded_words.join(' ')).split('').pop() == '=' ? btoa(encoded_words.join(' ')).slice(0,-1) : btoa(encoded_words.join(' '));
 }
 
 var de_caesar64 = function(string, shift){
